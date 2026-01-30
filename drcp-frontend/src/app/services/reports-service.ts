@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class ReportsService {
   
-  API_URL:string="https://drcp-backend-d40a.onrender.com/reports";
+  //API_URL:string="https://drcp-backend-d40a.onrender.com/reports";
+  API_URL:string="https://localhost:8080/reports";
 
   constructor(private http: HttpClient){
   }
